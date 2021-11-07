@@ -157,11 +157,16 @@ body {
 }
 
 .profile p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
     color: var(--text-color);
 }
 
 .profile img {
     border-radius: 50%;
+    max-width: 8rem;
+    height: auto;
 }
 
 
@@ -240,6 +245,11 @@ body {
     width: 90%;
 }
 
+.cont-skill .skill .skill-bar.skill6 {
+    background: linear-gradient(25deg, #db789d, #3cff87 50%);
+    width: 85%;
+}
+
 .cont-skill .skill .skill-bar span {
     position: absolute;
     border-top: 5px solid #f4392f;
@@ -254,7 +264,8 @@ body {
 .cont-skill .skill .skill-bar.skill2 span.skill-count,
 .cont-skill .skill .skill-bar.skill3 span.skill-count,
 .cont-skill .skill .skill-bar.skill4 span.skill-count,
-.cont-skill .skill .skill-bar.skill5 span.skill-count {
+.cont-skill .skill .skill-bar.skill5 span.skill-count,
+.cont-skill .skill .skill-bar.skill6 span.skill-count {
     right: 0;
 }
 
