@@ -19,6 +19,7 @@ The purpose for this project (website) to to show my online prescence so and thu
     <li>Author: felix Obiero</li> 
     <li>Date: Nov 7th 2021</li> 
     <li>Project Name: My Portfolio</li> <br/>
+    <li>Project live Link : https://fobiero.github.io/IP_1-portFolio/</li>
 
 </ol>
 
