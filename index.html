@@ -238,15 +238,15 @@
             <h4>Got a project? Lets talk!</h4>
             <small>Please tell me more about your project info and budget for that!</small>
             <div class="e-name">
-                <input type="text" placeholder="Enter your name" required>
+                <input type="text" id="user" placeholder="Enter your name" required>
             </div>
             <div class="e-email">
-                <input type="text" placeholder="Enter email" required>
+                <input type="text" id="email" placeholder="Enter email" required>
             </div>
             <div class="p-info">
-                <input type="text" placeholder="Describe project" required>
+                <input type="text" id="description" placeholder="Describe project" required>
             </div>
-            <button class="btn-submit" type="submit">send</button>
+            <button class="btn-submit" type="submit" onclick="getValues()">send</button>
         </div>
     </footer>
 
