@@ -49,7 +49,7 @@ I am flexible and working on the different timings on scheduled as follows.
 <br/>
 <!-- <br> -->
 
-This software is approved,verified, licensed and monitored by the MIT.Thus changes and new releases of this software, webApp and designes shall be of the same source. Rights, terms and all conditions apply. Check out he full license release on [MIT](LICENSE).
+This software is approved,verified, licensed and monitored by the MIT.Thus changes and new releases of this software, webApp and designes shall be of the same source. Rights, terms and all conditions apply. Check out he full license release on [MIT](LICENCE).
 
 
 
