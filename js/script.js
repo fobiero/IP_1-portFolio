@@ -17,9 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function getValues() {
     // get values from suer 
-
     // const users = []
-
     const username = document.getElementById('user').value;
     const email = document.getElementById('email').value;
     const description = document.getElementById('description').value;

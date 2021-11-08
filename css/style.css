@@ -19,10 +19,8 @@ body {
 }
 
 .home {
-    /* background-color: var(--text-color); */
-    padding: 2rem 0;
-    /* position: fixed; */
-    /* width: 100%; */
+    background-color: var(--pri-color);
+    padding: .3rem 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -399,7 +397,7 @@ body {
 }
 
 .blog-1 .b-info {
-    color: #fff;
+    color: rgb(151, 151, 151);
     font-size: 1.3rem;
 }
 
@@ -465,4 +463,44 @@ footer .btn-submit {
     font-weight: 400;
     padding: 1rem 0;
     letter-spacing: .3rem;
+}
+
+.footer-wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--color);
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.footer-wrap p {
+    font-weight: lighter;
+    margin: 0 1rem;
+    letter-spacing: .3rem;
+}
+
+.footer-wrap i {
+    margin-right: .4rem;
+}
+
+@media screen and (max-width:720px) {
+    .intro {
+        padding: 1rem 0;
+    }
+    .about .me-intro .bgraph p {
+        font-size: 10rem;
+    }
+    .about .intro h4 {
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+    .intro em {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .footer-wrap {
+        display: block;
+        margin: .2rem 0
+    }
 }
